@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<link href="web_contact_files/2005.html" type="text/css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+
+    .STYLE0 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    .STYLE10 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: #00F;
+    }
+
+    .STYLE1 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 24pt;
+    }
+
+    .STYLE2 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+</style>
+</head>
+
+<body>
+
+    <h1><span class="STYLE1">Contact Information</span></h1><hr>
+
+    <b>djwang@scu.edu.cn</b>
+
+
+<script>mendeleyWebImporter = {
+  downloadPdfs(t,e) { return this._call('downloadPdfs', [t,e]); },
+  open() { return this._call('open', []); },
+  setLoginToken(t) { return this._call('setLoginToken', [t]); },
+  _call(methodName, methodArgs) {
+    const id = Math.random();
+    window.postMessage({ id, token: '0.9991371304167554', methodName, methodArgs }, 'https://docs2022.github.io');
+    return new Promise(resolve => {
+      const listener = window.addEventListener('message', event => {
+        const data = event.data;
+        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+        window.removeEventListener('message', listener);
+        resolve(data.result);
+      });
+    });
+  }
+};</script></body></html>

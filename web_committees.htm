@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<link href="web_committees_files/2005.html" type="text/css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+    .STYLE0 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    .STYLE10 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: #00F;
+    }
+
+    .STYLE1 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 24pt;
+    }
+
+    .STYLE2 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+-->
+</style>
+</head>
+
+<body>
+    <h1>Committees</h1><hr>
+
+    <span class="STYLE0">
+        Organizing Committee<br>
+        <br>
+        <b>General Chairs</b><br><br>
+        Yaochu Jin, University of Surrey, Guildford, Surrey, UK<br>
+		Jun Wang, City University of Hong Kong, Hong Kong <br>
+        Jiuping Xu, Sichuan University, Chengdu, China <br>
+        Zhang Yi, Sichuan University, Chengdu, China <br>
+        <br><br>
+
+        <b>Organizing Chairs</b><br><br>
+        Hanxiong Li, City University of Hong Kong, Hong Kong<br>
+        Dujuan Wang, Sichuan University, Chengdu, China<br>
+		Yunqiang Yin, University of Electronic Science and Technology of China, Chengdu, China 
+        <br><br>
+		
+		
+        <b>Program Chairs</b><br><br>
+        Jinliang Ding, Northeastern University, Shenyang, China <br>
+		Wenli Du, East China University of Science and Technology, Shanghai, China <br>
+		Jiancheng Lv, Sichuan University, Chengdu, China <br>
+        Wangli He, East China University of Science and Technology, Shanghai, China<br>
+        Jianbin Qiu, Harbin Institute of Technology, Harbin, China<br>
+        Tie Qiu, Tianjin University, Tianjin, China
+        <br><br>
+		
+		<b>Special Sessions Chairs</b><br><br>
+        Zhouhua Peng, Dalian Maritime University, China <br>
+		Shaofu Yang, Southeast University, Nanjing, China<br>
+        Nian Zhang, University of District of Columbia, Washington, USA
+		<br><br>
+		
+		<b>Tutorial and Workshop Chairs</b><br><br>
+        Tingwen Huang, Texas A&amp;M University - Qatar, Doha, Qatar <br>
+		Qingfu Zhang, City University of Hong Kong, Hong Kong
+        <br><br>
+
+        <b>Publicity Chairs</b><br><br>
+        Huchuan Lu, Dalian University of Technology, Dalian, China <br>
+		Zhigang Zeng, Huazhong University of Science and Technology, Wuhan, China<br>
+		Lei Zhang, Sichuan University, Chengdu, China
+        <br><br>
+		
+		
+        <b>Publications Chairs</b><br><br>
+        Xiangguang Dai, Chongqing Three-Gorge University, Chongqing, China<br>
+        Man-Fai Leung, Open University of Hong Kong, Hong Kong<br>
+        Qiuzhen Lin, Shenzhen University, Shenzhen, China<br>
+        Yadi Wang, Henan University, Kaifeng, China
+        <br><br>
+		
+		
+        <b>Registration Chairs</b><br><br>
+        Shenshen Gu, Shanghai University, Shanghai, China<br>
+        Haiming Liang, Sichuan University, Chengdu, China<br>
+        Qingshan Liu, Southeast University, Nanjing, China<br>
+        Zhenyu Lu, Nanjing University of Information Science and Technology, Nanjing, China
+        <br><br>
+		
+        <b>Local Arrangements Chairs</b><br><br>
+        Rui Qiu, Sichuan University, Chengdu, China<br>
+        Pengyu Yan and Wei Yan, University of Electronic Science and Technology of China, Chengdu, China
+		<br><br>
+    </span>
+
+
+<script>mendeleyWebImporter = {
+  downloadPdfs(t,e) { return this._call('downloadPdfs', [t,e]); },
+  open() { return this._call('open', []); },
+  setLoginToken(t) { return this._call('setLoginToken', [t]); },
+  _call(methodName, methodArgs) {
+    const id = Math.random();
+    window.postMessage({ id, token: '0.4315228613818547', methodName, methodArgs }, 'https://conference.cs.cityu.edu.hk');
+    return new Promise(resolve => {
+      const listener = window.addEventListener('message', event => {
+        const data = event.data;
+        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+        window.removeEventListener('message', listener);
+        resolve(data.result);
+      });
+    });
+  }
+};</script></body></html>

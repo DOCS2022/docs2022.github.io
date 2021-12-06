@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<link href="web_topics_files/2005.html" type="text/css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+    .STYLE0 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    .STYLE10 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: #00F;
+    }
+
+    .STYLE1 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 24pt;
+    }
+
+    .STYLE2 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+</style>
+</head>
+
+<body>
+    <h1>Topic Areas</h1><hr>
+
+    <span class="STYLE0">
+    Technical topics of the conference include, but are not limited to, the following areas:<br><br>
+    
+    <p class="STYLE0" style="width: 1080px" align="justify"><b>Data-driven machine learning</b><br>
+Dynamic big data machine learning methods and techniques, deep learning, neural architecture search, reinforcement learning, statistical relational learning, transfer learning, self-supervised learning, distributed and federated machine learning, trustworthy machine learning<br><br>
+</p>
+
+<p class="STYLE0" style="width: 1080px" align="justify"><b>Data-driven optimization and decision making</b><br>
+Data-driven optimization algorithms, Bayesian optimization, neural combinatorial optimization, large-scale and multi-objective optimization, integration of machine learning and optimization, data-driven decision paradigm, intelligent scheduling, reinforcement learning for combinatorial optimization, distributed and federated optimization, industrial and manufacturing system analysis, and decision-making<br><br>
+</p>
+
+<p class="STYLE0" style="width: 1080px" align="justify"><b>Data-driven modeling and control</b><br>
+Learning and adaptive control, robust control, intelligent control, optimization-based and optimal control, model predictive control, fault detection and identification, hybrid intelligent systems, neural control, fuzzy logic control, networked control, industrial automation, intelligent transportation systems, environmental monitoring and control, intelligent manufacturing systems, green communication systems<br><br>
+</p>
+
+<p class="STYLE0" style="width: 1080px" align="justify"><b>Big data analysis and application</b><br>
+Big data storage and mining, data coordination, integration and processing, big data analytics and metrics, theory and methods of multi-source big data fusion, data base management systems, big data service, big data-oriented cloud computing technology, privacy preserving big data analysis, visual city data analysis, intelligent transportation data analysis, healthcare data analysis, bioinformatics<br><br>
+</p>
+</span>
+
+<script>mendeleyWebImporter = {
+  downloadPdfs(t,e) { return this._call('downloadPdfs', [t,e]); },
+  open() { return this._call('open', []); },
+  setLoginToken(t) { return this._call('setLoginToken', [t]); },
+  _call(methodName, methodArgs) {
+    const id = Math.random();
+    window.postMessage({ id, token: '0.4101923005663429', methodName, methodArgs }, 'https://docs2022.github.io');
+    return new Promise(resolve => {
+      const listener = window.addEventListener('message', event => {
+        const data = event.data;
+        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+        window.removeEventListener('message', listener);
+        resolve(data.result);
+      });
+    });
+  }
+};</script></body></html>
