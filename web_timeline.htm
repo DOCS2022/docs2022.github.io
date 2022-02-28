@@ -1,68 +1,94 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<!--<title>Timeline</title>-->
-<style type="text/css">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <!--<title>Timeline</title>-->
+    <style type="text/css">
 
-.STYLE0{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 18px;}
-.STYLE10{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 18px; color:#00F;}
-.STYLE1{font-family: "Times New Roman", Times, serif; font-size: 24pt; }
-.STYLE2{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 20px;}
+        .STYLE0 {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
 
-</style>
+        .STYLE10 {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: #00F;
+        }
+
+        .STYLE1 {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 24pt;
+        }
+
+        .STYLE2 {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+    </style>
 </head>
 
 <body>
-    <h1>Timeline</h1><hr>
+<h1>Timeline</h1>
+<hr>
 
-    <table class="STYLE0" width="70%" border="0">
-        <tbody><tr height="50">
-            <td align="left">Special session proposals deadline</td>
-            <td class="STYLE10" align="right">January 15, 2022</td>
-            </tr>
-		<tr height="50">
-            <td class="STYLE0" height="55">Paper submission deadline</td>
-            <td class="STYLE10" align="right">February 28, 2022 </font>
-        </td></tr>
-        <!--
-            <tr height="50">
-            <td height="55" class="STYLE0">Paper submission deadline</td>
-            <td align="right" class="STYLE10">February 1, 2021</font></div>
-        </tr> -->
+<table class="STYLE0" width="70%" border="0">
+    <tbody>
+    <tr height="50">
+        <td align="left">Special session proposals deadline</td>
+        <td class="STYLE10" align="right">January 15, 2022</td>
+    </tr>
+    <tr height="50">
+        <td class="STYLE0" height="55">Paper submission deadline</td>
+        <td class="STYLE10" align="right">March 7, 2022
+            <del>February 28, 2022</del>
+            </font>
+        </td>
+    </tr>
+    <!--
         <tr height="50">
-            <td align="left">Notification of acceptance</td>
-            <td class="STYLE10" align="right">March 15, 2022</td>
-        </tr>
-        <tr height="50">
-            <td align="left">Camera-ready copy and author registration</td>
-            <td class="STYLE10" align="right">April 15, 2022</td>
-        </tr>
-        <tr height="50">
-            <td align="left">Conference </td>
-            <td class="STYLE10" align="right"> May 27-29, 2022</td>
-        </tr>
-        </tbody></table>
-
-
-
-
-
+        <td height="55" class="STYLE0">Paper submission deadline</td>
+        <td align="right" class="STYLE10">February 1, 2021</font></div>
+    </tr> -->
+    <tr height="50">
+        <td align="left">Notification of acceptance</td>
+        <td class="STYLE10" align="right">March 15, 2022</td>
+    </tr>
+    <tr height="50">
+        <td align="left">Camera-ready copy and author registration</td>
+        <td class="STYLE10" align="right">April 15, 2022</td>
+    </tr>
+    <tr height="50">
+        <td align="left">Conference</td>
+        <td class="STYLE10" align="right"> May 27-29, 2022</td>
+    </tr>
+    </tbody>
+</table>
 
 
 <script>mendeleyWebImporter = {
-  downloadPdfs(t,e) { return this._call('downloadPdfs', [t,e]); },
-  open() { return this._call('open', []); },
-  setLoginToken(t) { return this._call('setLoginToken', [t]); },
-  _call(methodName, methodArgs) {
-    const id = Math.random();
-    window.postMessage({ id, token: '0.20503958899892594', methodName, methodArgs }, 'https://docs2022.github.io/');
-    return new Promise(resolve => {
-      const listener = window.addEventListener('message', event => {
-        const data = event.data;
-        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
-        window.removeEventListener('message', listener);
-        resolve(data.result);
-      });
-    });
-  }
-};</script></body></html>
+    downloadPdfs(t, e) {
+        return this._call('downloadPdfs', [t, e]);
+    },
+    open() {
+        return this._call('open', []);
+    },
+    setLoginToken(t) {
+        return this._call('setLoginToken', [t]);
+    },
+    _call(methodName, methodArgs) {
+        const id = Math.random();
+        window.postMessage({id, token: '0.20503958899892594', methodName, methodArgs}, 'https://docs2022.github.io/');
+        return new Promise(resolve => {
+            const listener = window.addEventListener('message', event => {
+                const data = event.data;
+                if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+                window.removeEventListener('message', listener);
+                resolve(data.result);
+            });
+        });
+    }
+};</script>
+</body>
+</html>
