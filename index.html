@@ -1,173 +1,245 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html><head>
-<link href="" type="text/css" rel="stylesheet">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="robots" content="all">
-<meta name="Copyright" content="2022,copyright: DOCS2022">
-<meta name="description" content="The 4th International Conference on Data-driven Optimization of Complex Systems (DOCS2022)">
-<meta name="keywords" content="DOCS,DOCS2022,International Conference on Data-driven Optimization of Complex Systems">
-<title>International Conference on Data-driven Optimization of Complex Systems, 2022</title>
+<html>
+<head>
+    <link href="" type="text/css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="all">
+    <meta name="Copyright" content="2022,copyright: DOCS2022">
+    <meta name="description"
+          content="The 4th International Conference on Data-driven Optimization of Complex Systems (DOCS2022)">
+    <meta name="keywords"
+          content="DOCS,DOCS2022,International Conference on Data-driven Optimization of Complex Systems">
+    <title>International Conference on Data-driven Optimization of Complex Systems, 2022</title>
 
-<script language="Javascript">
-var getFFVersion=navigator.userAgent.substring(navigator.userAgent.indexOf("Firefox")).split("/")[1];
-var FFextraHeight=getFFVersion>=0.1? 16 : 0; //extra height in px to add to iframe in FireFox 1.0+ browsers
+    <script language="Javascript">
+        var getFFVersion = navigator.userAgent.substring(navigator.userAgent.indexOf("Firefox")).split("/")[1];
+        var FFextraHeight = getFFVersion >= 0.1 ? 16 : 0; //extra height in px to add to iframe in FireFox 1.0+ browsers
 
 
-//onload = function()
-//{//document.main.document.body.style.fontFamily = "white";
- //document.main.contentWindow.document.body.style.fontFamily='white';}
+        //onload = function()
+        //{//document.main.document.body.style.fontFamily = "white";
+        //document.main.contentWindow.document.body.style.fontFamily='white';}
 
-function adjustHeight(minHeight) {
-	var main = null;
-	if (document.getElementById) {
-		main = document.getElementById("main");
-	} else {
-		eval('main = ' + main + ';');
-	}
-	if (main && !window.opera) {
-		//begin resizing iframe
-		main.style.display="block";
-		
-		if (main.contentDocument && main.contentDocument.body.offsetHeight) {
-			//ns6 syntax
-			var newHeight = Math.max(minHeight, main.contentDocument.body.offsetHeight) + FFextraHeight;
-			main.height = newHeight;
-		} else if (main.Document && main.Document.body.scrollHeight) {
-			//ie5+ syntax
-			var newHeight = Math.max(minHeight, main.Document.body.scrollHeight);
-			main.height = newHeight;
-		}
-	}
-}
-</script>
+        function adjustHeight(minHeight) {
+            var main = null;
+            if (document.getElementById) {
+                main = document.getElementById("main");
+            } else {
+                eval('main = ' + main + ';');
+            }
+            if (main && !window.opera) {
+                //begin resizing iframe
+                main.style.display = "block";
 
-<style type="text/css">
-<!--
-body {
-	background-color: #FFFFFF;
-}
-.style1 {color: #000000;}
-.style3 {color: #FFFFFF; }
-.style5 {
-				background-color: #3867C3;
-}
-.style6 {
-				border-style: solid;
-				border-color: #3867C3;
-				color: #00FFFF;
-				background-color: #3867C3;
-font-family: "Times New Roman", Times,serif; font-size: 14pt;
-}
-.style7 {background-color: #3668C1;
-}
-.style8 {
-				border-style: solid;
-				border-color: #3867C3;
-				background-color: #3867C3;
-}
--->
-</style></head>
+                if (main.contentDocument && main.contentDocument.body.offsetHeight) {
+                    //ns6 syntax
+                    var newHeight = Math.max(minHeight, main.contentDocument.body.offsetHeight) + FFextraHeight;
+                    main.height = newHeight;
+                } else if (main.Document && main.Document.body.scrollHeight) {
+                    //ie5+ syntax
+                    var newHeight = Math.max(minHeight, main.Document.body.scrollHeight);
+                    main.height = newHeight;
+                }
+            }
+        }
+    </script>
+
+    <style type="text/css">
+        <!--
+        body {
+            background-color: #FFFFFF;
+        }
+
+        .style1 {
+            color: #000000;
+        }
+
+        .style3 {
+            color: #FFFFFF;
+        }
+
+        .style5 {
+            background-color: #3867C3;
+        }
+
+        .style6 {
+            border-style: solid;
+            border-color: #3867C3;
+            color: #00FFFF;
+            background-color: #3867C3;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 14pt;
+        }
+
+        .style7 {
+            background-color: #3668C1;
+        }
+
+        .style8 {
+            border-style: solid;
+            border-color: #3867C3;
+            background-color: #3867C3;
+        }
+		.cookies-close
+
+        -->
+    </style>
+</head>
 
 <body bottummargin="0" topmargin="0" rightmargin="0" leftmargin="0">
 
+
 <table class="style5" width="1000" cellspacing="1" cellpadding="0" border="0" align="center">
-	<tbody><tr height="200"><td width="100%" valign="bottom" align="center">
-      <img src="banner.png" width="100%" height="300"> </td>
-	</tr>
-	<tr><td width="100%">
-					<table class="style7" width="1146" cellspacing="0" cellpadding="0" border="0" align="center">
-	  <tbody><tr valign="middle" height="40" bgcolor="#FFFFFF" align="center">
-		<td class="style3"><a href="web_home.htm" target="main" class="white style1"><font color="#000066">Home</font></a></td>
-		<td class="style3">|</td>
-		<td class="style3"><a href="web_sponsors.htm" target="main" class="white style1"><font color="#000066">Sponsors</font></a></td>
-		<td class="style3">|</td>
-		<td class="style3"><a href="web_committees.htm" target="main" class="white style1"><font color="#000066">Committees</font></a></td>
-		<td class="style3">|</td>
-		<td class="style3"><a href="web_timeline.htm" target="main" class="white style1"><font color="#000066">Timeline</font></a></td>
-		<td class="style3">|</td>
-		<td class="style3"><a href="web_topics.htm" target="main" class="white style1"><font color="#000066">Topics</font></a></td>
-		<td class="style3">|</td>
-		<td class="style3"><a href="Submission.htm" target="main" class="white style1"><font color="#000066">Submission</font></a></td>
-		<td class="style3">|</td>
-		<td class="style3"><a href="Registration.htm" target="main" class="white style1"><font color="#000066">Registration</font></a></td>
-		<td class="style3">|</td>
-		<td class="style3"><a href="Program.htm" target="main" class="white style1"><font color="#000066">Program</font></a></td>
-		<td class="style3">|</td>
-		<td class="style3"><a href="Venue.htm" target="main" class="white style1"><font color="#000066">Venue</font></a></td>
-        <td class="style3">|</td>
-        <td class="style3"><a href="Accommodation.htm" target="main" class="white style1"><font color="#000066">Accommodation</font></a></td>
-		<td class="style3">|</td>
+    <tbody>
+    <tr height="200">
+        <td width="100%" valign="bottom" align="center">
+            <img src="banner.png" width="100%" height="300"></td>
+    </tr>
+    <tr>
+        <td width="100%">
+            <table class="style7" width="1146" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tbody>
+                <tr valign="middle" height="40" bgcolor="#FFFFFF" align="center">
+                    <td class="style3"><a href="web_home.htm" target="main" class="white style1"><font color="#000066">Home</font></a>
+                    </td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="web_sponsors.htm" target="main" class="white style1"><font
+                            color="#000066">Sponsors</font></a></td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="web_committees.htm" target="main" class="white style1"><font
+                            color="#000066">Committees</font></a></td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="web_timeline.htm" target="main" class="white style1"><font
+                            color="#000066">Timeline</font></a></td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="web_topics.htm" target="main" class="white style1"><font
+                            color="#000066">Topics</font></a></td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="Submission.htm" target="main" class="white style1"><font
+                            color="#000066">Submission</font></a></td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="Registration.htm" target="main" class="white style1"><font
+                            color="#000066">Registration</font></a></td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="Program.htm" target="main" class="white style1"><font color="#000066">Program</font></a>
+                    </td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="Venue.htm" target="main" class="white style1"><font color="#000066">Venue</font></a>
+                    </td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="Accommodation.htm" target="main" class="white style1"><font
+                            color="#000066">Accommodation</font></a></td>
+                    <td class="style3">|</td>
 
-		<td class="style3"><a href="web_transportation.htm" target="main" class="white style1"><font color="#000066">Transportation</font></a></td>
-		<td class="style3">|</td>
-
-
-		<td class="style3"><a href="Sightseeing.htm" target="main" class="white style1"><font color="#000066">Sightseeing</font></a></td>
-		<td class="style3">|</td>
-		<td class="style3"><a href="web_history.htm" target="main" class="white style1"><font color="#000066">History</font></a></td>
-		<td class="style3">|</td>
-		<td class="style3"><a href="web_contact.htm" target="main" class="white style1"><font color="#000066">Contact</font></a></td>
-	</tr></tbody></table></td>
-	</tr>
-	<tr valign="top" bgcolor="#FFFFFF" align="left">
-		<td width="100%"><table width="100%" height="600" cellspacing="0" cellpadding="0" border="0" align="center">
-			<tbody><tr height="20"><td colspan="3"></td></tr>
-			<tr>
-				<td width="48%"></td>
-				<td width="2%"><iframe src="web_home.htm" name="main" id="main" marginheight="0" marginwidth="0" onload="javascript:{adjustHeight(300);}" style="display: block;" width="1146" height="524" frameborder="0"></iframe>
-			  </td>
-				<td width="50%"></td>
-			</tr>
-			<tr height="50"><td colspan="3"></td></tr>
-		</tbody></table></td>	
-	</tr>	
-	<tr bgcolor="#00A239">
-		<td width="100%" bgcolor="#FFFFFF"><table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
-			<tbody><tr valign="middle">
-				<td class="style3" width="10%" align="left">
-					<table width="100%" cellspacing="0" cellpadding="0" border="0">
-						<tbody><tr><td align="center">
-						<!-- weather widget start -->
-<!-- weather widget start --><a target="_blank" href="https://www.booked.net/weather/chengdu-18975"><img src="https://w.bookcdn.com/weather/picture/1_18975_1_1_137AE9_160_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=26222"  alt="booked.net"/></a><!-- weather widget end -->
-						<!-- weather widget end -->
-						
-						</td>
-						</tr>
-						
+                    <td class="style3"><a href="web_transportation.htm" target="main" class="white style1"><font
+                            color="#000066">Transportation</font></a></td>
+                    <td class="style3">|</td>
 
 
-						
-					</tbody></table>
-				</td>
-				<td class="style3" width="82%" height="90">
-					<div align="center">
-						<font color="#000066">Copyright© International Conference on Data-driven Optimization of Complex Systems <br>
-						All rights reserved.</font>
-					
-				</div></td>
-				<td class="style5" width="10%" align="right">
-				<a href="https://clustrmaps.com/site/19t39" title="Visit tracker" target="_blank"><img src="map_v2.png"></a>
-				</td>
-			</tr>
-	  </tbody></table></td>
-	</tr>
-</tbody></table>
+                    <td class="style3"><a href="Sightseeing.htm" target="main" class="white style1"><font
+                            color="#000066">Sightseeing</font></a></td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="web_history.htm" target="main" class="white style1"><font
+                            color="#000066">History</font></a></td>
+                    <td class="style3">|</td>
+                    <td class="style3"><a href="web_contact.htm" target="main" class="white style1"><font
+                            color="#000066">Contact</font></a></td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <tr valign="top" bgcolor="#FFFFFF" align="left">
+        <td width="100%">
+            <table width="100%" height="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tbody>
+                <tr height="20">
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td width="48%"></td>
+                    <td width="2%">
+                        <iframe src="web_home.htm" name="main" id="main" marginheight="0" marginwidth="0"
+                                onload="javascript:{adjustHeight(300);}" style="display: block;" width="1146"
+                                height="524" frameborder="0"></iframe>
+                    </td>
+                    <td width="50%"></td>
+                </tr>
+                <tr height="50">
+                    <td colspan="3"></td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <tr bgcolor="#00A239">
+        <td width="100%" bgcolor="#FFFFFF">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tbody>
+                <tr valign="middle">
+                    <td class="style3" width="10%" align="left">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td align="center">
+                                    <!-- weather widget start --><a target="_blank"
+                                                                    href="https://www.booked.net/weather/chengdu-18975"><img
+                                        src="https://w.bookcdn.com/weather/picture/1_18975_1_1_137AE9_160_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=72053"
+                                        alt="booked.net"/></a><!-- weather widget end -->
+
+                                </td>
+                            </tr>
+
+
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="style3" width="82%" height="90">
+                        <a href="https://secure.ethicspoint.com/domain/media/en/gui/20410/index.html"
+                           target="_blank"><span style="color:#2c3e50">IEEE Ethics Reporting</span></a>
+                        <div align="center">
+                            <font color="#000066">Copyright© International Conference on Data-driven Optimization of
+                                Complex Systems <br>
+                                All rights reserved.<br>
+                            The website will not collect any cookies</font>
+
+                        </div>
+                    </td>
+                    <td class="style5" width="10%" align="right">
+                        <a href="https://clustrmaps.com/site/19t39" title="Visit tracker" target="_blank"><img
+                                src="map_v2.png"></a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
 
 
 <script>mendeleyWebImporter = {
-  downloadPdfs(t,e) { return this._call('downloadPdfs', [t,e]); },
-  open() { return this._call('open', []); },
-  setLoginToken(t) { return this._call('setLoginToken', [t]); },
-  _call(methodName, methodArgs) {
-    const id = Math.random();
-    window.postMessage({ id, token: '0.8023394834403215', methodName, methodArgs }, 'https://docs2022.github.io');
-    return new Promise(resolve => {
-      const listener = window.addEventListener('message', event => {
-        const data = event.data;
-        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
-        window.removeEventListener('message', listener);
-        resolve(data.result);
-      });
-    });
-  }
-};</script></body></html>
+    downloadPdfs(t, e) {
+        return this._call('downloadPdfs', [t, e]);
+    },
+    open() {
+        return this._call('open', []);
+    },
+    setLoginToken(t) {
+        return this._call('setLoginToken', [t]);
+    },
+    _call(methodName, methodArgs) {
+        const id = Math.random();
+        window.postMessage({id, token: '0.8023394834403215', methodName, methodArgs}, 'https://docs2022.github.io');
+        return new Promise(resolve => {
+            const listener = window.addEventListener('message', event => {
+                const data = event.data;
+                if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+                window.removeEventListener('message', listener);
+                resolve(data.result);
+            });
+        });
+    }
+};</script>
+</body>
+</html>
